@@ -29,7 +29,7 @@ se aprende com as mãos no teclado.
 
 ## 📄 Amostra do livro
 
-- **[Amostra-Livro-Capitulos-1-a-3.pdf](Amostra-Livro-Capitulos-1-a-3.pdf)** —
+- **[pdf/Amostra-Livro-Capitulos-1-a-3.pdf](pdf/Amostra-Livro-Capitulos-1-a-3.pdf)** —
   Módulo 1 completo (Capítulos 1 a 3), para leitura e avaliação.
 
 O livro completo abrange nove capítulos, em quatro módulos: fundamentos e estruturas
@@ -49,15 +49,21 @@ Requisitos: nenhum para o Colab. Localmente, Python 3.12+ (apenas a biblioteca p
 
 ```
 .
-├── AULAS_COLAB/                        # notebooks de aula (um por capítulo)
+├── AULAS_COLAB/                            # notebooks de aula (um por capítulo) — publicado
 │   ├── Cap01_Engenharia_de_Defesa_e_Programacao.ipynb
 │   ├── Cap02_Fundamentos_de_Python.ipynb
 │   ├── Cap03_Estruturas_de_Dados_Nativas.ipynb
 │   └── Cap04_Persistencia_Regex_Erros.ipynb
-├── Amostra-Livro-Capitulos-1-a-3.pdf   # amostra do livro (Módulo 1)
+├── pdf/                                    # PDFs gerados
+│   └── Amostra-Livro-Capitulos-1-a-3.pdf   #   -> único PDF publicado (Módulo 1)
+├── livro/                                  # fontes LaTeX + assets (NÃO publicado)
 ├── LICENSE
 └── README.md
 ```
+
+> Apenas `AULAS_COLAB/`, a amostra em `pdf/` e este README/LICENSE são versionados.
+> As fontes LaTeX do livro completo (`livro/`) e os PDFs integrais (`pdf/main*.pdf`,
+> `pdf/cristiano_alves_python_defesa.pdf`) ficam fora do controle de versão.
 
 ## 📜 Licença
 

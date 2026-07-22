@@ -1,31 +1,43 @@
 # =====================================================================
 #  Este repositorio publica APENAS:
 #    - os notebooks de aula (AULAS_COLAB/*.ipynb)
-#    - a amostra do livro ate o Capitulo 3 (PDF)
+#    - a amostra do livro ate o Capitulo 3 (pdf/Amostra-Livro-Capitulos-1-a-3.pdf)
 #    - README e LICENSE
 #
-#  O livro completo (fontes LaTeX e PDFs integrais) NAO e versionado.
+#  O livro completo (fontes LaTeX em livro/ e PDFs integrais em pdf/)
+#  NAO e versionado.
 #  Estrategia: ignora tudo e libera explicitamente o que deve subir.
 # =====================================================================
 
-# 1) Ignora tudo por padrao
+# 1) Ignora tudo por padrao (inclui livro/ inteiro)
 /*
 
-# 2) Libera apenas o que deve ser publicado
+# 2) Libera o que deve ser publicado
 !.gitignore
 !README.md
 !LICENSE
-!Amostra-Livro-Capitulos-1-a-3.pdf
-!AULAS_COLAB/
 
-# 3) Dentro de AULAS_COLAB, mantem so os notebooks
+# 3) Notebooks de aula (apenas os .ipynb)
+!AULAS_COLAB/
 AULAS_COLAB/*
 !AULAS_COLAB/*.ipynb
 
-# 4) Artefatos de execucao dos notebooks (caso rodados localmente)
+# 4) Apenas a AMOSTRA dentro de pdf/ (os PDFs integrais ficam de fora)
+!pdf/
+pdf/*
+!pdf/Amostra-Livro-Capitulos-1-a-3.pdf
+
+# 5) Artefatos de build LaTeX (caso escapem para pastas versionadas)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# 6) Artefatos de execucao dos notebooks
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
-
-# Arquivos gerados pelos notebooks ao rodar (dados temporarios)
 *.db

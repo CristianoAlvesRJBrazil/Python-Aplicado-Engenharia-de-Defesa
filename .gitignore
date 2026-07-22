@@ -1,0 +1,31 @@
+# =====================================================================
+#  Este repositorio publica APENAS:
+#    - os notebooks de aula (AULAS_COLAB/*.ipynb)
+#    - a amostra do livro ate o Capitulo 3 (PDF)
+#    - README e LICENSE
+#
+#  O livro completo (fontes LaTeX e PDFs integrais) NAO e versionado.
+#  Estrategia: ignora tudo e libera explicitamente o que deve subir.
+# =====================================================================
+
+# 1) Ignora tudo por padrao
+/*
+
+# 2) Libera apenas o que deve ser publicado
+!.gitignore
+!README.md
+!LICENSE
+!Amostra-Livro-Capitulos-1-a-3.pdf
+!AULAS_COLAB/
+
+# 3) Dentro de AULAS_COLAB, mantem so os notebooks
+AULAS_COLAB/*
+!AULAS_COLAB/*.ipynb
+
+# 4) Artefatos de execucao dos notebooks (caso rodados localmente)
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Arquivos gerados pelos notebooks ao rodar (dados temporarios)
+*.db

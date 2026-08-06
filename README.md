@@ -23,6 +23,7 @@ se aprende com as mãos no teclado.
 | 2 | Fundamentos de Python | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CristianoAlvesRJBrazil/Python-Aplicado-Engenharia-de-Defesa/blob/main/AULAS_COLAB/Cap02_Fundamentos_de_Python.ipynb) |
 | 3 | Estruturas de Dados Nativas | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CristianoAlvesRJBrazil/Python-Aplicado-Engenharia-de-Defesa/blob/main/AULAS_COLAB/Cap03_Estruturas_de_Dados_Nativas.ipynb) |
 | 4 | Persistência, Expressões Regulares e Tratamento de Erros | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CristianoAlvesRJBrazil/Python-Aplicado-Engenharia-de-Defesa/blob/main/AULAS_COLAB/Cap04_Persistencia_Regex_Erros.ipynb) |
+| 5 | Programação Orientada a Objetos | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CristianoAlvesRJBrazil/Python-Aplicado-Engenharia-de-Defesa/blob/main/AULAS_COLAB/Cap05_Programacao_Orientada_a_Objetos.ipynb) |
 
 > Os notebooks acompanham o **miniprojeto integrador** — um pequeno sistema de apoio
 > à decisão, construído passo a passo ao longo do curso.
@@ -53,7 +54,8 @@ Requisitos: nenhum para o Colab. Localmente, Python 3.12+ (apenas a biblioteca p
 │   ├── Cap01_Engenharia_de_Defesa_e_Programacao.ipynb
 │   ├── Cap02_Fundamentos_de_Python.ipynb
 │   ├── Cap03_Estruturas_de_Dados_Nativas.ipynb
-│   └── Cap04_Persistencia_Regex_Erros.ipynb
+│   ├── Cap04_Persistencia_Regex_Erros.ipynb
+│   └── Cap05_Programacao_Orientada_a_Objetos.ipynb
 ├── pdf/                                    # PDFs gerados
 │   └── Amostra-Livro-Capitulos-1-a-3.pdf   #   -> único PDF publicado (Módulo 1)
 ├── livro/                                  # fontes LaTeX + assets (NÃO publicado)

@@ -24,9 +24,13 @@ se aprende com as mãos no teclado.
 | 3 | Estruturas de Dados Nativas | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CristianoAlvesRJBrazil/Python-Aplicado-Engenharia-de-Defesa/blob/main/AULAS_COLAB/Cap03_Estruturas_de_Dados_Nativas.ipynb) |
 | 4 | Persistência, Expressões Regulares e Tratamento de Erros | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CristianoAlvesRJBrazil/Python-Aplicado-Engenharia-de-Defesa/blob/main/AULAS_COLAB/Cap04_Persistencia_Regex_Erros.ipynb) |
 | 5 | Programação Orientada a Objetos | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CristianoAlvesRJBrazil/Python-Aplicado-Engenharia-de-Defesa/blob/main/AULAS_COLAB/Cap05_Programacao_Orientada_a_Objetos.ipynb) |
+| 7 | Computação Numérica com NumPy | [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CristianoAlvesRJBrazil/Python-Aplicado-Engenharia-de-Defesa/blob/main/AULAS_COLAB/Cap07_Computacao_Numerica_NumPy.ipynb) |
 
 > Os notebooks acompanham o **miniprojeto integrador** — um pequeno sistema de apoio
 > à decisão, construído passo a passo ao longo do curso.
+>
+> O **Capítulo 6** (Tkinter) não é um notebook: por usar interface gráfica, vem como
+> scripts locais (veja a seção abaixo).
 
 ## 🖥️ Scripts locais (Capítulo 6 — Tkinter)
 
@@ -71,7 +75,8 @@ Requisitos: nenhum para o Colab. Localmente, Python 3.12+ (apenas a biblioteca p
 │   ├── Cap02_Fundamentos_de_Python.ipynb
 │   ├── Cap03_Estruturas_de_Dados_Nativas.ipynb
 │   ├── Cap04_Persistencia_Regex_Erros.ipynb
-│   └── Cap05_Programacao_Orientada_a_Objetos.ipynb
+│   ├── Cap05_Programacao_Orientada_a_Objetos.ipynb
+│   └── Cap07_Computacao_Numerica_NumPy.ipynb
 ├── AULAS_LOCAIS/                           # scripts .py para rodar na máquina — publicado
 │   └── Cap06_Automacao_e_Tkinter/          #   automação, módulos e GUIs Tkinter
 ├── pdf/                                    # PDFs gerados

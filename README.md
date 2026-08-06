@@ -28,6 +28,22 @@ se aprende com as mãos no teclado.
 > Os notebooks acompanham o **miniprojeto integrador** — um pequeno sistema de apoio
 > à decisão, construído passo a passo ao longo do curso.
 
+## 🖥️ Scripts locais (Capítulo 6 — Tkinter)
+
+O Capítulo 6 usa **interface gráfica (Tkinter)**, que **não roda no Colab** (o
+navegador não tem tela para abrir janelas). Por isso, esse capítulo vem como
+**scripts `.py` para rodar na sua máquina**, em
+[AULAS_LOCAIS/Cap06_Automacao_e_Tkinter/](AULAS_LOCAIS/Cap06_Automacao_e_Tkinter/):
+
+```bash
+cd AULAS_LOCAIS/Cap06_Automacao_e_Tkinter
+python3 gui_03_monitor_ocorrencias.py    # interface do miniprojeto (Módulo 3)
+```
+
+Requer Python 3.10+ com Tkinter (no Linux, se faltar: `sudo apt install python3-tk`).
+Veja o [README da pasta](AULAS_LOCAIS/Cap06_Automacao_e_Tkinter/README.md) para a
+lista completa de scripts e instruções.
+
 ## 📄 Amostra do livro
 
 - **[pdf/Amostra-Livro-Capitulos-1-a-3.pdf](pdf/Amostra-Livro-Capitulos-1-a-3.pdf)** —
@@ -56,6 +72,8 @@ Requisitos: nenhum para o Colab. Localmente, Python 3.12+ (apenas a biblioteca p
 │   ├── Cap03_Estruturas_de_Dados_Nativas.ipynb
 │   ├── Cap04_Persistencia_Regex_Erros.ipynb
 │   └── Cap05_Programacao_Orientada_a_Objetos.ipynb
+├── AULAS_LOCAIS/                           # scripts .py para rodar na máquina — publicado
+│   └── Cap06_Automacao_e_Tkinter/          #   automação, módulos e GUIs Tkinter
 ├── pdf/                                    # PDFs gerados
 │   └── Amostra-Livro-Capitulos-1-a-3.pdf   #   -> único PDF publicado (Módulo 1)
 ├── livro/                                  # fontes LaTeX + assets (NÃO publicado)

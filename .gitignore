@@ -1,6 +1,7 @@
 # =====================================================================
 #  Este repositorio publica APENAS:
 #    - os notebooks de aula (AULAS_COLAB/*.ipynb)
+#    - os scripts locais de aula (AULAS_LOCAIS/**/*.py e README.md)
 #    - a amostra do livro ate o Capitulo 3 (pdf/Amostra-Livro-Capitulos-1-a-3.pdf)
 #    - README e LICENSE
 #
@@ -21,6 +22,12 @@
 !AULAS_COLAB/
 AULAS_COLAB/*
 !AULAS_COLAB/*.ipynb
+
+# 3b) Scripts locais de aula (apenas .py e README.md; artefatos de execucao fora)
+!AULAS_LOCAIS/
+AULAS_LOCAIS/**/logs/
+AULAS_LOCAIS/**/resumo.txt
+AULAS_LOCAIS/**/ocorrencias.json
 
 # 4) Apenas a AMOSTRA dentro de pdf/ (os PDFs integrais ficam de fora)
 !pdf/

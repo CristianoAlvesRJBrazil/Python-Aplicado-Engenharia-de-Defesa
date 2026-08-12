@@ -12,6 +12,7 @@ saída** e um resumo — no mesmo encadeamento do capítulo correspondente.
 | Capítulo | Aula |
 |---|---|
 | 1 | [Engenharia de Defesa e o Lugar da Programação](Cap01_Engenharia_de_Defesa_e_Programacao.pptx) |
+| 2 | [Fundamentos da Programação em Python](Cap02_Fundamentos_de_Python.pptx) |
 
 ## Como usar
 Abra o `.pptx` no PowerPoint, no LibreOffice Impress ou no Google Apresentações

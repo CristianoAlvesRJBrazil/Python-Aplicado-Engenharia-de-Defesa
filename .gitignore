@@ -30,8 +30,9 @@ AULAS_LOCAIS/**/logs/
 AULAS_LOCAIS/**/resumo.txt
 AULAS_LOCAIS/**/ocorrencias.json
 
-# 3c) Aulas teoricas em PowerPoint
+# 3c) Aulas teoricas em PowerPoint (ignora locks temporarios do LibreOffice)
 !AULAS_SLIDES/
+.~lock.*#
 
 # 4) Apenas a AMOSTRA dentro de pdf/ (os PDFs integrais ficam de fora)
 !pdf/

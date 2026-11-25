@@ -3,7 +3,7 @@
 #    - os notebooks de aula (AULAS_COLAB/*.ipynb)
 #    - os scripts locais de aula (AULAS_LOCAIS/**/*.py e README.md)
 #    - as aulas teoricas em PowerPoint (AULAS_SLIDES/*.pptx e README.md)
-#    - a amostra do livro ate o Capitulo 3 (pdf/Amostra-Livro-Capitulos-1-a-3.pdf)
+#    - a amostra do livro, Capitulos 1 e 2 (pdf/Amostra-Livro-Capitulos-1-e-2.pdf)
 #    - README e LICENSE
 #
 #  O livro completo (fontes LaTeX em livro/ e PDFs integrais em pdf/)
@@ -37,7 +37,7 @@ AULAS_LOCAIS/**/ocorrencias.json
 # 4) Apenas a AMOSTRA dentro de pdf/ (os PDFs integrais ficam de fora)
 !pdf/
 pdf/*
-!pdf/Amostra-Livro-Capitulos-1-a-3.pdf
+!pdf/Amostra-Livro-Capitulos-1-e-2.pdf
 
 # 5) Artefatos de build LaTeX (caso escapem para pastas versionadas)
 *.aux

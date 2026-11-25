@@ -1,12 +1,13 @@
 # Programação com Python Aplicada à Engenharia de Defesa
 
 Materiais de apoio do livro-texto **_Programação com Python Aplicada à Engenharia
-de Defesa_**, de **Cristiano da Costa Alves** — um curso prático de 40 horas,
+de Defesa_**, de **Cristiano da Costa Alves** e **Carlos Vitor de Alencar Carvalho** —
+um curso prático de 40 horas,
 organizado em quatro módulos, com foco em aplicações reais de defesa e segurança
 nacional.
 
 Este repositório reúne os **notebooks de aula** (prontos para o Google Colab) e uma
-**amostra gratuita do livro** (Capítulos 1 a 3). O livro completo é distribuído à
+**amostra gratuita do livro** (Capítulos 1 e 2). O livro completo é distribuído à
 parte; aqui ficam os materiais de código, sob licença aberta.
 
 ---
@@ -51,8 +52,9 @@ lista completa de scripts e instruções.
 
 ## 📄 Amostra do livro
 
-- **[pdf/Amostra-Livro-Capitulos-1-a-3.pdf](pdf/Amostra-Livro-Capitulos-1-a-3.pdf)** —
-  Módulo 1 completo (Capítulos 1 a 3), para leitura e avaliação.
+- **[pdf/Amostra-Livro-Capitulos-1-e-2.pdf](pdf/Amostra-Livro-Capitulos-1-e-2.pdf)** —
+  Capítulos 1 e 2, com a capa, a Apresentação e o "Como usar este livro", no mesmo
+  layout da edição impressa (16 × 23 cm), para leitura e avaliação.
 
 O livro completo abrange nove capítulos, em quatro módulos: fundamentos e estruturas
 de dados; persistência e orientação a objetos; bibliotecas científicas (NumPy,
@@ -82,7 +84,7 @@ Requisitos: nenhum para o Colab. Localmente, Python 3.12+ (apenas a biblioteca p
 ├── AULAS_LOCAIS/                           # scripts .py para rodar na máquina — publicado
 │   └── Cap06_Automacao_e_Tkinter/          #   automação, módulos e GUIs Tkinter
 ├── pdf/                                    # PDFs gerados
-│   └── Amostra-Livro-Capitulos-1-a-3.pdf   #   -> único PDF publicado (Módulo 1)
+│   └── Amostra-Livro-Capitulos-1-e-2.pdf   #   -> único PDF publicado (Capítulos 1 e 2)
 ├── livro/                                  # fontes LaTeX + assets (NÃO publicado)
 ├── LICENSE
 └── README.md
@@ -95,9 +97,11 @@ Requisitos: nenhum para o Colab. Localmente, Python 3.12+ (apenas a biblioteca p
 ## 📜 Licença
 
 Código e notebooks sob licença **MIT** (veja [LICENSE](LICENSE)). O texto do livro é
-© 2026 Cristiano da Costa Alves; a amostra é disponibilizada para uso didático.
+© 2026 Cristiano da Costa Alves e Carlos Vitor de Alencar Carvalho; a amostra é
+disponibilizada para uso didático.
 
-## ✍️ Autor
+## ✍️ Autores
 
-**Cristiano da Costa Alves** — Quantum Strategic AI · Rio de Janeiro, 2026.
+**Cristiano da Costa Alves** e **Carlos Vitor de Alencar Carvalho** — Quantum Strategic AI ·
+Rio de Janeiro, 2026.
 Sugestões e correções são bem-vindas via *issues* deste repositório.
